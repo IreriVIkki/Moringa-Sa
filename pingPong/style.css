@@ -1,0 +1,90 @@
+body{
+  background-color: #524B58;
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  lineheight: 1.6em;
+  margin:0;
+}
+.container{
+  width:100%;
+  margin:auto;
+  overflow:hidden;
+}
+#mainHeader{
+  background-image: url('../images/pingpongballs.png');
+  background-position: center center;
+  background-size: 100%;
+  color: coral;
+}
+#mainHeader h1{
+    text-align:center;
+    font-size: 120px;
+}
+.aboutPingPong {
+  border: 1px none solid;
+  background-color: #8FBC8E;
+  padding-bottom: 200px;
+  float: left;
+  width: 30%;
+  box-sizing: border-box;
+  margin-top: 30px;
+}
+.aboutPingPong img{
+  padding: 10px;
+  image-orientation: center;
+}
+.aboutPingPong h3{
+  font-weight: 1000;
+  padding: 0 5px;
+}
+.aboutPingPong p{
+  padding-left: 10px;
+}
+.aboutPingPong h4{
+  font-weight:6s00;
+  padding-left: 5px;
+}
+.pingPongGame{
+  float: right;
+  width: 70%;
+  box-sizing: border-box;
+  padding-left: 20px;
+  margin-top: 30px;
+  line-height: 1.5em;
+}
+.pingPongGame h3{
+  letter-spacing: -0.05em
+}
+.pingPongGame #label{
+  font-weight: bold;
+}
+#numberEntry .nE{
+  display: inline;
+}
+#numberEntry input{
+  width: 50px;
+  padding: 5px 0;
+}
+#numberEntry button{
+  padding: 5px 10px;
+  font-weight: 500;
+}
+#numberInput .nE{
+  display: inline;
+}
+#display .container{
+  width: 500px;
+  margin-top: 20px;
+  margin-left: 0;
+  text-align: center;
+}
+.displayList{
+  padding: 3px 0;
+  list-style: none;
+}
+.items{
+  border-radius: 5px;
+  border:0px solid;
+  margin: 2px 0;
+}

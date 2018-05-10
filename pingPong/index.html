@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Let's play Ping Pong</title>
+    <link rel="stylesheet" type="text/css "href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <script src='https://code.jquery.com/jquery-3.3.1.min.js'></script>
+  </head>
+  <body>
+    <header id="mainHeader">
+      <div class="container">
+        <h1>Ping-Pong</h1>
+      </div>
+    </header>
+    <section id="mainSection">
+      <div  class="container">
+        <div class="aboutPingPong">
+          <img src="../images/pingPong.png" alt="pingpong">
+          <h3>About Ping Pong</h3>
+          <p>
+            <h4 id="cretedBy">Created by:</h4>
+            <p id="creatorName">Victor Ireri</p>
+            <h4 id="userName?">GitHub Username/URL:</h4>
+            <p id="userName">ireriVikki</p>
+            <h4 id="testFor?">Level 2 Test for:</h4>
+            <p id="testFor">HTML, CSS, Javascript</p>
+          </p>
+        </div>
+        <div class="pingPongGame">
+          <h2>Let's play!</h2>
+          <h3>Rules:</h3>
+          <div id="rules">
+            <p>Ping Pong will count up to your number from 1 with the following expectations:</p>
+            <ol class="rulesItems">
+              <li>Numbers divisible by 3 become 'ping'</li>
+              <li>Numbers divisible by 5 become 'pong'</li>
+              <li>Numbers divisible by 3 and 5 become 'pingpong'</li>
+            </ol>
+          </div>
+          <div id="numberInput">
+            <p class="nE" id="label">Enter your number here: </p>
+            <input id="playerIn" class="nE" type="text">
+            <button class="nE" id="submitButton">Ping Pong!</button>
+          </div>
+          <div  id="display">
+            <div class="container"><br>
+              <label id="result" class="items">You Win!</label>
+              <ul class="displayList" id="addItem">
+                <li class="items"></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
