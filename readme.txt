@@ -1,0 +1,1 @@
+This version of Ping Pong gives ping if your number input is divisible by 3,  pong if the number is divisible by 5 and ping pong if the number is divisible by 15
