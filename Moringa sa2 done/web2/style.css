@@ -1,0 +1,66 @@
+body{
+  background-color: #f4f4f4;
+}
+.transparentBg{
+  background-color: transparent !important;
+}
+.customTxtColor{
+  color:#f15a29 !important;
+}
+.customBgWhite{
+  background-color: #f4f3f2 !important;
+}
+.customBgColor{
+  background-color: #f15a29 !important;
+}
+.borderColor{
+  border-color: #f15a29 !important;
+}
+.landing-Bg{
+  background-image: url('../assets/backgrounds/landing.jpg');
+}
+.breakFast-bgImage{
+  background-image: url('../assets/foodtop/breakfast.jpg');
+}
+.lunch-bgImage{
+  background-image: url('../assets/foodtop/lunch.jpg');
+}
+.dinner-bgImage{
+  background-image: url('../assets/foodtop/dinner.jpg');
+}
+#angleLeftAI{
+  height: 40px;
+  background-color: transparent;
+}
+#angleRightAI{
+  height: 40px;
+  background-color: transparent;
+}
+.menu-bgImage{
+  background-image: url('../assets/backgrounds/foodsBg.jpg');
+  -weekbit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+.subscribe-bgImage{
+  background-image: url('../assets/backgrounds/subscribe.jpg');
+  -weekbit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  height: 300px;
+}
+.input-group{
+  width: 250px;
+}
+#footer-bg{
+  background-color: #ccc;
+  height: 350px;
+}
+.bgImage{
+  background-color: transparent;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-origin: ;
+  background-clip: inherit;
+  background-size: cover;
+}
